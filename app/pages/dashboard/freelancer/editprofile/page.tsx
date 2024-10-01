@@ -25,7 +25,7 @@ const EditProfilePage: React.FC = () => {
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch('https://baniworkswebsite.vercel.app/api/freelancerprofileedit', {
+      const response = await fetch('https://baniworkswebsite-55b3.vercel.app/api/freelancerprofileedit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -29,10 +29,10 @@ export async function GET() {
         profileImage: user.picture ?? `https://avatar.vercel.sh/${user.given_name}`,
       },
     });
-    return NextResponse.redirect("https://baniworkswebsite.vercel.app/pages/RegEntPage");
+    return NextResponse.redirect("https://baniworkswebsite-55b3.vercel.app/pages/RegEntPage");
   }
 
-  return NextResponse.redirect("https://baniworkswebsite.vercel.app");
+  return NextResponse.redirect("https://baniworkswebsite-55b3.vercel.app");
 }
 
 // app/api/auth/creation/route.ts
