@@ -18,7 +18,7 @@ export default function Navbar() {
         </Link>
 
         <div className="hidden lg:flex flex-1 items-center justify-center lg:justify-end">
-          <SearchBar />
+         
         </div>
         
         <div className="hidden lg:flex items-center space-x-5">
