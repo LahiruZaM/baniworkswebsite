@@ -29,7 +29,7 @@ export default function Navbar() {
       <div className="flex lg:hidden items-center justify-between container mx-auto px-5 py-1">
         
         <div className="flex flex-1 items-center justify-end space-x-2">
-          <SearchBar />
+          {/* <SearchBar /> */}
           <UserNav />
         </div>
       </div>

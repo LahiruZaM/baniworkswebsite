@@ -16,7 +16,7 @@ function DpageComponents() {
     );
 
     const syncConversation = useCallback((session: { getOrCreateConversation: (arg0: string) => any; me: any; }) => {
-        // JavaScript SDK code here
+        // JavaScript SDK code herec
         const conversation = session.getOrCreateConversation('new_conversation');
 
         const other = new Talk.User({
