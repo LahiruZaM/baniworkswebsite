@@ -12,7 +12,7 @@ const MainBody: React.FC = () => {
   return (
     <div>
       {/* Navigation Links */}
-      <div className="bg-white py-2 border-b border-gray-200">
+      {/* <div className="bg-white py-2 border-b border-gray-200">
         <div className="container mx-auto px-6 flex items-center justify-between overflow-x-auto whitespace-nowrap max-w-2xl relative">
           <Link href="pages/jobs/view" className="text-black px-2 lg:px-4 py-2 hover:text-yellow-500 transition">
             Jobs
@@ -27,7 +27,7 @@ const MainBody: React.FC = () => {
             About Us
           </Link>
         </div>
-      </div>
+      </div> */}
 
       <div className='m-5'></div>
       <div className="block lg:hidden mt-8">
