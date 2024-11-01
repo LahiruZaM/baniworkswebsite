@@ -66,7 +66,7 @@ const ProfileEditPage: React.FC = () => {
   
       if (response.ok) {
         const data = await response.json();
-        router.push(`/client/${data.firstName}/profile`); // Ensure proper ID handling
+        router.push(`/pages/client/${data.id}/profile`); // Ensure proper ID handling
       } else {
         const errorData = await response.json();
         console.error('Failed to update profile:', errorData);
