@@ -61,7 +61,7 @@ const MainBody: React.FC = () => {
             </div>
           </div>
           <div className="relative hidden lg:block lg:w-3/5 mt-5">
-            <Image src="/mainimages/img1.png" alt="Image" className="w-3/4 max-w-md mx-auto" width={100} height={100} />
+            <Image src="/mainimages/img1.png" alt="Image" className="w-3/4 max-w-md mx-auto" width={100} height={100} unoptimized={true}/>
           </div>
         </div>
       </div>
