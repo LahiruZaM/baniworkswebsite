@@ -24,8 +24,8 @@ export async function POST(request: NextRequest) {
       client = await prisma.client.create({
         data: {
           userId: user.id,
-          firstName: 'DefaultFirstName', // Use default values or fetch additional details
-          lastName: 'DefaultLastName',   // Use default values or fetch additional details
+          firstName: 'DefaultFirstName',
+          lastName: 'DefaultLastName',   
         },
       });
     }

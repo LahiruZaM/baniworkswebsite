@@ -15,8 +15,8 @@ export async function POST(request: NextRequest) {
 
     // Mock file upload logic for now
     const fileUrls = await Promise.all(files.map(async (file) => {
-      // Implement your file upload logic here
-      return 'uploaded-file-url'; // Replace with actual URL after upload
+      
+      return 'uploaded-file-url';
     }));
 
     console.log('File URLs:', fileUrls); // Log file URLs

@@ -52,7 +52,7 @@ const ClientDashboardOwner = () => {
   return (
     <>
       <ClientNavbar />
-      <div className="p-4 md:p-6 bg-white rounded-lg shadow-md">
+      <div className="p-4 md:p-6 bg-white rounded-lg shadow-md h-[500px]">
         <div className="flex flex-col md:flex-row items-center mb-4 md:mb-6">
           {/* Profile Image */}
           <div className="flex-shrink-0 hidden md:block">
