@@ -37,7 +37,7 @@ Ensure you have the following installed on your system:
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/baniworks.git
+   git clone https://github.com/LahiruZaM/baniworkswebsite.git
    ```
 2. **Navigate to the project directory:**
    ```sh
